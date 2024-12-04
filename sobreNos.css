@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(161, 206, 172);
+    text-align:left;
+}
+ h1{
+    text-align: center;
+    color:aliceblue;
+}
+
+/*cabeçalho*/
+header {
+    background-color: rgb(105, 155, 105);
+    text-align: left; 
+    padding: 25px;
+    font-family: 'Franklin Gothic Medium', serif;
+    font-size: 30px;
+    font-style: oblique;
+    color: aliceblue;
+}
+
+ p{
+    padding: 10px;
+    color: rgb(2, 59, 2);
+    font-size: 20px;
+ }

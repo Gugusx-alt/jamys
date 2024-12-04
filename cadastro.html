@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webtarianos</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <header>
+        <p>Webtariano - Uma aplicação web para auxiliar pessoas vegetarianas.</p>
+    </header>
+    <div class="container-cadastro">
+        <form action="cadastro.php" method="post">
+            <h1>Faça seu cadrastro</h1>
+            
+            <input type="text" name="Nome" placeholder="Nome" required> <br>
+            <input type="text" name="nomeUsuario" placeholder="Usuário" required> <br>
+            <input type="email" name="Email" placeholder="Email" required> <br>
+            <input type="number" name="idade" placeholder="Idade" required> <br>
+            <input type="telefone" name="telefone" placeholder="Telefone" required> <br>
+            <input type="number" name="peso" placeholder="Peso" required> <br>
+            <input type="number" name="altura" placeholder="Altura" required> <br>
+
+            <div id="xunxozinho">
+            <select name="tipoVeg" id="tipoVeg"> 
+                <option value="" disabled selected>Tipo de Vegtarianismo</option> <!--Impede que a opção 'Selecione' seja a escolhida-->
+                <option value="ovoLacto">Ovo-Lacto vegetariano</option>
+                <option value="ovo">OvoVegetariano</option>
+                <option value="lacto">LactoVegetariano</option>
+                <option value="vegano">Vegano</option>
+                <option value="pesce">PesceVegetariano</option>
+                <option value="flex">FlexVegetariano</option>
+            <input type="password" name="senha" placeholder="Senha" required>
+            </div>
+            <input type="password" name="confirmaSenha" placeholder="Confirme a senha">
+                <br>
+        
+            <button type="submit">Entrar</button>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
